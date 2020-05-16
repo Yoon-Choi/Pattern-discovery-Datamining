@@ -1,6 +1,6 @@
 # Pattern-discovery-Datamining
 
- required to implement the Apriori algorithm and apply it to mine frequent itemsets from a real-life data set.
+implement the Apriori algorithm and apply it to mine frequent itemsets from a real-life data set.
 
 ## Input
 The provided input file ("categories.txt") consists of the category lists of 77,185 places in the US. 
