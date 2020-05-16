@@ -6,7 +6,7 @@ implement the Apriori algorithm and apply it to mine frequent itemsets from a la
 The provided input file ("categories.txt") consists of the category lists of 77,185 places in the US. 
 
 Each line corresponds to the category list of one place, where the list consists of a number of category instances
-(e.g., hotels, restaurants, etc.) that are separated by semicolons.
+(e.g. hotels, restaurants, etc.) that are separated by semicolons.
 
 An example line is provided below:
  Local Services;IT Services & Computer Repair
