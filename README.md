@@ -14,13 +14,13 @@ In the example above, the corresponding place has two category instances: "Local
 
 ## Output
 You need to implement the Apriori algorithm and use it to mine category sets that are frequent in the input data.
-When implementing the Apriori algorithm, you may use any programming language you like. We only need your result pattern file, not your source code file.
 
 After implementing the Apriori algorithm, please set the relative minimum support to 0.01 and run it on the 77,185 category lists.
 In other words, you need to extract all the category sets that have an absolute support larger than 771.
 
 
-write all the frequent category sets along with their absolute supports into a text file named "patterns.txt". Every line corresponds to exactly one frequent category set and should be in the following format:
+write all the frequent category sets along with their absolute supports into a text file named "patterns.txt".
+Every line corresponds to exactly one frequent category set and should be in the following format:
 
 support:category_1;category_2;category_3;...
 
@@ -28,9 +28,10 @@ For example, suppose a category set (Fast Food; Restaurants) has an absolute sup
 
 2851:Fast Food;Restaurants
 
+
 ## Important Tips
 format each line correctly in the output file. 
-For instance, use a semicolon instead of another character to separate the categories for each frequent category set.
+use a semicolon instead of another character to separate the categories for each frequent category set.
 
 In the result pattern file, the order of the categories does not matter.
 For example, the following two cases will be considered equivalent.
