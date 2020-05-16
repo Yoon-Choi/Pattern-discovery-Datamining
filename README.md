@@ -55,5 +55,5 @@ Case 2:
 # Implementation flow 
 
  1. get the text file and reshape for data frame 
- 2. appriori algorithm and get frequent pattern
+ 2. use appriori algorithm and get frequent pattern
  3. save in csv(or text ) file 
